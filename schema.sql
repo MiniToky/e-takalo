@@ -44,7 +44,7 @@ create table Proposition (
     idObjet1 INT NOT NULL,
     idUser2 INT NOT NULL,
     idObjet2 INT NOT NULL,
-    dateProp date,
+    dateProp datetime,
     Foreign Key (idUser1) REFERENCES Users(idUser),
     Foreign Key (idObjet1) REFERENCES Objet(idObjet),
     Foreign Key (idUser2) REFERENCES Users(idUser),
