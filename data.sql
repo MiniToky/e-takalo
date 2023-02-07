@@ -49,3 +49,7 @@ insert into Objet values(null, 'JBL Quatum 100', 'Casque Jbl low cost', 3, 60000
 insert into Photos values(null, 9, 'Informatique/i7.png');
 insert into Photos values(null, 9, 'Informatique/i8.png');
 insert into Photos values(null, 9, 'Informatique/i9.png');
+
+insert into Proprio values(2,1,'2022/11/02');
+insert into Proprio values(2,2,'2022/11/15');
+insert into Proprio values(4,3,'2023/01/05');
