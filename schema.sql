@@ -24,6 +24,12 @@ create table Objet (
     Foreign Key (idCategorie) REFERENCES Categorie(idCat)
 );
 
+create table Photos (
+    idPhoto INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    idObjet INT NOT NULL,
+    chemin VARCHAR(255)
+);
+
 create table Proprio (
     idUser INT NOT NULL,
     idObj INT NOT NULL,
