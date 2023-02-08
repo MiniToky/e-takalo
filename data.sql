@@ -52,13 +52,17 @@ insert into Photos values(null, 9, 'Informatique/i9.png');
 
 insert into Proprio values(2,1,'2022/11/02');
 insert into Proprio values(2,2,'2022/02/03');
-insert into Proprio values(2,3,'2023/11/05');^
+insert into Proprio values(2,3,'2023/11/05');
 insert into Proprio values(3,4,'2021/12/02');
 insert into Proprio values(3,5,'2022/07/15');
 insert into Proprio values(3,6,'2023/04/19');
 insert into Proprio values(4,7,'2022/10/02');
 insert into Proprio values(4,8,'2021/11/15');
 insert into Proprio values(4,9,'2023/01/26');
+insert into Proprio values(2,4,'2023/02/17');
+insert into Proprio values(3,1,'2023/02/17');
+
+
 
 insert into Proposition values(null,2,1,3,4,'2023/02/15');
 insert into Proposition values(null,3,6,4,8,'2023/08/10');
@@ -66,3 +70,4 @@ insert into Proposition values(null,3,5,2,3,'2023/12/10');
 
 insert into Transac values(1,'2023/02/17',0);
 insert into Transac values(2,'2023/08/10',1);
+
