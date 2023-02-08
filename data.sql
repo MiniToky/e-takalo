@@ -9,15 +9,15 @@ insert into Categorie values(null, 'Vetements');
 insert into Categorie values(null, 'Livre');
 insert into Categorie values(null, 'Informatique');
 
-insert into Objet values(null, 'Tshirt TNF', 'Tshirt blanc avec logo the north face tendance jeune', 1, 15000, 'Vetements/v1.png');
+insert into Objet values(null, 'Tshirt TNF', 'Tshirt noir avec logo the north face tendance jeune', 1, 15000, 'Vetements/v1.png');
 insert into Photos values(null, 1, 'Vetements/v1.png');
 insert into Photos values(null, 1, 'Vetements/v2.png');
 insert into Photos values(null, 1, 'Vetements/v3.png');
-insert into Objet values(null, 'Jordan Retro 1', 'Air Jordan One Red Velvet', 1, 150000, 'Vetements/v4.png');
+insert into Objet values(null, 'Jordan Retro 1', 'Air Jordan One Red Black', 1, 150000, 'Vetements/v4.png');
 insert into Photos values(null, 2, 'Vetements/v4.png');
 insert into Photos values(null, 2, 'Vetements/v5.png');
 insert into Photos values(null, 2, 'Vetements/v6.png');
-insert into Objet values(null, 'Pantalon H&M', 'Jean Bleu Fashion', 1, 80000, 'Vetements/v7.png');
+insert into Objet values(null, 'Pantalon H&M', 'Jean Noir Fashion', 1, 80000, 'Vetements/v7.png');
 insert into Photos values(null, 3, 'Vetements/v7.png');
 insert into Photos values(null, 3, 'Vetements/v8.png');
 insert into Photos values(null, 3, 'Vetements/v9.png');
@@ -45,7 +45,7 @@ insert into Photos values(null, 8, 'Informatique/i4.png');
 insert into Photos values(null, 8, 'Informatique/i5.png');
 insert into Photos values(null, 8, 'Informatique/i6.png');
 
-insert into Objet values(null, 'JBL Quatum 100', 'Casque Jbl low cost', 3, 60000, 'Informatique/i7.png');
+insert into Objet values(null, 'JBL Quatum 100', 'Casque Jbl Quatum 100', 3, 60000, 'Informatique/i7.png');
 insert into Photos values(null, 9, 'Informatique/i7.png');
 insert into Photos values(null, 9, 'Informatique/i8.png');
 insert into Photos values(null, 9, 'Informatique/i9.png');
